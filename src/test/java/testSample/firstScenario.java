@@ -34,6 +34,7 @@ public void test() throws IOException, InterruptedException, AWTException {
 	ut.scroll(setUp_tearDown.driver,x,y);
 	Thread.sleep(3000);
 	ut.snap(setUp_tearDown.driver);
+	System.out.println("firstPage successfully reached");
 	
 	sip= new storeIndexPage(driver);
 	sip.laptop();
